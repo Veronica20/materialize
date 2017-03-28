@@ -1,0 +1,216 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 1056px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        text-align: center;
+        width: 100%;
+    }
+
+    .collapse.navbar-collapse.navbar-right1.pull-right {
+        float: none !important;
+    }
+
+    .nav.navbar-nav.navbar-right.fs14 {
+        float: none !important;
+    }
+
+    .container-fluid {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1007px) {
+    .get-credit-side {
+        width: 94%;
+        height: auto;
+    }
+
+    .main-rate-side {
+        padding: 0;
+    }
+
+    .main-footer {
+        padding: 0;
+    }
+
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .register {
+        float: none !important;
+        margin-top: 30px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .main-rate-side {
+        padding: 0;
+    }
+
+    .main-rate-side p {
+        width: 100%;
+    }
+
+    .page-wrap {
+        min-height: 100%;
+        /* equal to footer height */
+        margin-bottom: 0;
+    }
+
+    .page-wrap:after {
+        content: "";
+        display: block;
+    }
+
+    .site-footer, .page-wrap:after {
+        height: auto;
+    }
+
+    .footer-content .social {
+        top: 0;
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+@media (min-width: 767px) {
+    #bs-example-navbar-collapse-1 {
+        display: inline-block !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li {
+        border-bottom: 1px solid #fff;
+    }
+
+    #bs-example-navbar-collapse-1 {
+        padding-left: 0;
+    }
+
+    .main-top {
+        height: auto;
+    }
+
+    .main-rate-side h2 {
+        width: 98%;
+    }
+
+    .supply-chain-finace img, .asset-finance img, .invoice-finance img, .debtor-finance img {
+        display: none;
+    }
+
+    .coment-side .info-side p:after, .coment-side .info-side p:before {
+        left: 50%;
+    }
+
+    .apply-now-footer {
+        width: 100%;
+    }
+
+    .coment-side .info-side {
+        margin-left: 0px;
+    }
+
+    .footer-content ul.info li {
+        width: 180px;
+        margin: auto;
+    }
+
+    a.heading {
+        padding-bottom: 10px;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .coment-side-show {
+        display: none;
+    }
+
+    .coment-side-hide {
+        display: block;
+    }
+}
+
+@media (max-width: 595px) {
+    button.check-out, button.apply-now {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .apply-now-form {
+        padding-bottom: 0;
+    }
+
+    p.top-info {
+        width: 96%;
+    }
+
+    .main-footer .apply {
+        padding: 0;
+    }
+
+    .main-footer .apply p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .apply-now-footer {
+        font-size: 14px;
+    }
+
+    .main-footer {
+        padding: 6px;
+    }
+}
+
+@media (max-width: 420px) {
+    button.check-out, button.apply-now {
+        width: 96%;
+    }
+
+    .img-side {
+        width: 98%;
+    }
+
+    h1 {
+        height: 32px;
+        width: 150px;
+        background-size: 150px;
+    }
+}
+
+@media (max-width: 350px) {
+    .check-out .play {
+        right: 15px;
+    }
+}
+
+@media (max-width: 290px) {
+    .navbar-toggle {
+        right: -20px;
+    }
+
+    .navbar-toggle {
+        position: absolute;
+        top: 0;
+        right: -26px;
+    }
+}
+
+@media (max-width: 230px) {
+    h1 {
+        margin-top: 43px;
+    }
+}
